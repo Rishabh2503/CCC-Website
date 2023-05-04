@@ -1,0 +1,39 @@
+/* Navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.logo{
+   font-size: 30px;
+   margin-left: 3vh;
+   margin-top: 2vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+header .display-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 3vh;
+    color: black;
+    margin-right: 1vw;
+}
+
+#name {
+    color: black;
+    font-size: larger;
+    margin-top: 1vh;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+

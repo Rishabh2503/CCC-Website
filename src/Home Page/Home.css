@@ -1,0 +1,32 @@
+#first-part{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#heading{
+    font-weight: 500;
+    font-size: 10vh;
+    margin-top: 15vh;
+    margin-left: 3vw;
+}
+
+#illustration{
+    margin-top: 8vh;
+height: 570px;
+}
+
+.inline{
+    color: #007DFE;
+}
+
+#moto{
+    font-weight: 500;
+    font-size: 5vh;
+    margin-left: 3vw;
+    margin-top: 4vh;
+}
+
+#head{
+    margin-top: 10vh;
+
+}
