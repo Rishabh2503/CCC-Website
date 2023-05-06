@@ -6,6 +6,9 @@ import web from "../Images/web.svg";
 import app from "../Images/app.svg";
 import ml from "../Images/ml.svg";
 import design from "../Images/design.svg";
+import think from "../Images/think.svg";
+import develop from "../Images/develop.svg";
+import deploy from "../Images/deploy.svg"
 
 const Home = () => {
   return (
@@ -90,7 +93,37 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div>{/* <div><img src={} alt="think"/></div> */}</div>
+      <div className="title">
+        <span>OUR</span>
+        <span className="inline"> DOMAIN</span>
+      </div>
+      <div id="what-we-do">
+        <div>
+          <img src={think} alt="think" className="domain_pic" />
+          <p className="domain_name">THINKgi</p>
+          <p className="domain_content">
+            As web developers, we ensure that the website is visually appealing
+            and easy to navigate with absolute care for website’s performance
+            and capacity.
+          </p>
+        </div>
+        <div>
+          <img src={develop} alt="develop" className="domain_pic" />
+          <p className="domain_name">DEVELOP</p>
+          <p className="domain_content">
+            Work on different application development softwares like flutter,
+            react native and NetBeans and provide the required solutions
+          </p>
+        </div>
+        <div>
+          <img src={deploy} alt="deploy" className="domain_pic" />
+          <p className="domain_name">DEPLOY</p>
+          <p className="domain_content">
+            Machine Learning is the field of study that gives computers the
+            capability to learn without being explicitly programmed.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
