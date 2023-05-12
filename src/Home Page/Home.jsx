@@ -8,9 +8,14 @@ import ml from "../Images/ml.svg";
 import design from "../Images/design.svg";
 import think from "../Images/think.svg";
 import develop from "../Images/develop.svg";
-import deploy from "../Images/deploy.svg"
+import deploy from "../Images/deploy.svg";
+import pic1 from "../Images/1.jpg";
+import pic2 from "../Images/2.jpg";
+import pic3 from "../Images/3.jpg";
+import Slide from "../Components/Slide";
 
 const Home = () => {
+
   return (
     <div>
       <div id="first-part">
@@ -40,7 +45,6 @@ const Home = () => {
           <div className="content">
             <span className="inline">Cloud Computing Cell</span>
             <span>
-              {" "}
               has been a part of Ajay Kumar Garg Engineering College since
               February 2016.The members are exposed to the latest Cloud
               Technologies that enable them to be market ready thereby
@@ -100,7 +104,7 @@ const Home = () => {
       <div id="what-we-do">
         <div>
           <img src={think} alt="think" className="domain_pic" />
-          <p className="domain_name">THINKgi</p>
+          <p className="domain_name">THINK</p>
           <p className="domain_content">
             As web developers, we ensure that the website is visually appealing
             and easy to navigate with absolute care for website’s performance
