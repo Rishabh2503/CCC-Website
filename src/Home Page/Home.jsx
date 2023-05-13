@@ -43,7 +43,7 @@ const Home = () => {
             <img src={team} alt="team photo" />
           </div>
           <div className="content">
-            <span className="inline">Cloud Computing Cell</span>
+            <span className="inline">Cloud Computing Cell </span>
             <span>
               has been a part of Ajay Kumar Garg Engineering College since
               February 2016.The members are exposed to the latest Cloud
