@@ -202,20 +202,21 @@ h2 {
 }
 
 #btn-cont{
+    width:30vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   #btn-cont span {
     font-weight: 500;
-    font-size: 2vh;
-    
-    height: 5vh;
-    width: 5vw;
+    font-size: 1.2vw;
+    margin: 2vw 3vw;
+    width: 104px;
+    height: 44px;
     border-radius: 0.2vw;
     text-align: center;
-    padding: 9px;
+    padding: 0.5vw 1vw;
     cursor: pointer;
   
   }
@@ -228,6 +229,13 @@ h2 {
   #btn-2{
     border: 1px solid #007dfe ;
 
+  }
+
+  .inp_ut, .inp_ut input  {
+    width: 25vw;
+    border-left: none;
+    border-right: none;
+    border-top: none;
   }
 
 
