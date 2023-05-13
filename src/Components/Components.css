@@ -56,6 +56,7 @@ header .display-menu{
     border: 8px solid #fff;
     position: relative;
     margin-top: 6vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
   .card-img {
@@ -121,3 +122,59 @@ header .display-menu{
     font-weight: 500;
     cursor: pointer;
   }
+
+  /* Register */
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    margin: 5rem;
+  }
+
+  .modal-wrapper{
+    position: fixed;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189,189,189,0.9);
+  }
+
+  .modal-container{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 30rem;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+  }
+
+  h2{
+    color: #007DFE;
+    font-size: 6vh;
+    text-align: center;
+  }
+
+  #text{
+    font-size: 4vh;
+    color: black;
+    text-align: center;
+  }
+
+  .model-btn{
+    color: white;
+    background-color: #007DFE;
+    height: 5.6vh;
+    width:9vw;
+    margin-left: 7vw;
+    border-radius: .5vw;
+  }
+
+
+ 

@@ -9,16 +9,18 @@ const Team = () => {
       <div>
         <div className="year-title">Members from Fourth Year : </div>
         <TeamCard />
-   
       </div>
       <div>
         <div className="year-title">Members from Third Year : </div>
         <TeamCard />
-   
       </div>
       <div>
         <div className="year-title">Members from Second Year : </div>
         <TeamCard />
+      </div>
+      <div>
+        <div className="year-title">Our Alumni : </div>
+        <div></div>
       </div>
     </div>
   )
