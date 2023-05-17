@@ -1,6 +1,7 @@
 import React from "react";
 import github from "../Images/github.svg";
 import linkedin from "../Images/linkedin.svg";
+import { thirdYear } from "../List of Team Members/thirdyear";
 
 const TeamCard = () => {
   return (

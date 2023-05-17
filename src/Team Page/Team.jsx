@@ -3,6 +3,7 @@ import "./Team.css";
 import TeamCard2 from "../Components/TeamCard(2nd)";
 import team from "../Images/teampage.svg";
 import TeamCard3 from '../Components/TeamCard(3rd)'
+import TeamCard4 from '../Components/TeamCard(4th)'
 
 
 const Team = () => {
@@ -27,6 +28,7 @@ const Team = () => {
       </div>
       <div>
         <div className="year-title">Members from Fourth Year : </div>
+        <TeamCard4 />
       </div>
       <div>
         <div className="year-title">Members from Third Year : </div>
