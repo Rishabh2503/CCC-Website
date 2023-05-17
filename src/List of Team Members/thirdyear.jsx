@@ -34,14 +34,14 @@ export const thirdYear = [
         photo: shailaja
     },
     {
-        name: "Anishkha",
-        tech: "UI/UX Designer and ML Developer",
+        name: "Anishkha Chaudhary",
+        tech: "UI/UX Designer and App Developer",
         linked: "",
         github: "",
         photo: anishkha
     },
     {
-        name: "Siddharth",
+        name: "Siddharth Srivastava",
         tech: "ML Developer",
         linked: "",
         github: "",
