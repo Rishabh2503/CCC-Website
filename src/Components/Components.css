@@ -40,11 +40,12 @@ header .display-menu {
 /*<---------------TeamCard---------------->*/
 #cards-design {
   display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw; 
 }
 .card {
   width: 255px;
