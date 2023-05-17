@@ -1,4 +1,4 @@
-import taru from '../Images/Me.jpg'
+import taru from '../Team Member Photos/TaruPathak.jpg'
 import rishabh from '../Team Member Photos/Rishabh4.jpeg'
 import dev from '../Team Member Photos/Devrath.jpg'
 import arpit from '../Team Member Photos/Arpit.jpeg'
