@@ -1,13 +1,14 @@
 import React from "react";
 import "./Team.css";
-import TeamCard from "../Components/TeamCard(2nd)";
+import TeamCard2 from "../Components/TeamCard(2nd)";
 import team from "../Images/teampage.svg";
+import TeamCard3 from '../Components/TeamCard(3rd)'
 
 
 const Team = () => {
   return (
     <div>
-      <div id="first-part">
+      <div id="first-part">;
         <img src={team} alt="team" id="illustration" />
         <div id="head">
           <div id="head_ing">
@@ -29,11 +30,14 @@ const Team = () => {
       </div>
       <div>
         <div className="year-title">Members from Third Year : </div>
+        <TeamCard3 />
       </div>
+      
       <div>
         <div className="year-title">Members from Second Year : </div>
+        <TeamCard2 />
       </div>
-      <TeamCard />
+     
       <div>
         <div className="year-title">Our Alumni : </div>
         <div></div>
