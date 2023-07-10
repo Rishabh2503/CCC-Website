@@ -1,100 +1,116 @@
-import kamakshi from '../Team Member Photos/Kamakshi Vashista front end.jpeg'
-import anishkha from '../Team Member Photos/Anishkha.jpeg'
-import anjani from '../Team Member Photos/Anjani.jpeg'
-import harshit from '../Team Member Photos/Harshit.jpeg'
-import mrityunjay from '../Team Member Photos/Mrityunjay.jpeg'
-import nidhi from '../Team Member Photos/Nidhi.jpeg'
-import nishtha from '../Team Member Photos/Nishtha.jpeg'
-import sachin from '../Team Member Photos/Sachin.jpeg'
-import shailaja from '../Team Member Photos/Shailaja Pal.jpeg'
-import shashwat from '../Team Member Photos/Shashwat.jpeg'
-import siddharth from '../Team Member Photos/Siddharth.jpeg'
-import tanishq from '../Team Member Photos/tanish.jpg'
+import taru from '../Team Member Photos/TaruPathak.jpg'
+import rishabh from '../Team Member Photos/Rishabh4.jpeg'
+import dev from '../Team Member Photos/Devrath.jpg'
+import arpit from '../Team Member Photos/Arpit.jpeg'
+import atul from '../Team Member Photos/atul.jpg'
+import kartik from '../Team Member Photos/Kartik.jpeg'
+import priti from '../Team Member Photos/preeti.jpg'
+import priya from '../Team Member Photos/priya.jpg'
+import raghav from '../Team Member Photos/Raghav.jpg'
+import sarthak from '../Team Member Photos/sarthak.jpg'
+import shashank from '../Team Member Photos/sashank.JPG'
+import saurabh from '../Team Member Photos/Saurbh.jpg'
+import sonam from '../Team Member Photos/sonam.jpg'
+
 
 export const thirdYear = [
     {
-        name: "Kamakshi Vashista",
-        tech: "Web Developer",
-        linked: "",
-        github: "",
-        photo: kamakshi
+        name: "Taru Pathak",
+        tech: "React Developer and UI/UX Designer",
+        linked: "https://www.linkedin.com/in/taru-pathak-747660247/",
+        github: "https://github.com/tarupathak",
+        photo: taru
     },
     {
-        name: "Shashwat Pandey",
-        tech: "Web Developer",
-        linked: "",
-        github: "",
-        photo: shashwat
-    },
-    {
-        name: "Shailaja Pal",
+        name: "Dev Vrat Tripathi",
         tech: "ML Developer",
-        linked: "",
-        github: "",
-        photo: shailaja
+        linked: "https://www.linkedin.com/in/dev-brat-t-ba2647108/",
+        github: "https://github.com/Desi-Saitama",
+        photo: dev
     },
     {
-        name: "Anishkha Chaudhary",
-        tech: "UI/UX Designer and App Developer",
-        linked: "",
-        github: "",
-        photo: anishkha
+        name: "Priti Kapoor",
+        tech: "React Developer",
+        linked: "https://www.linkedin.com/in/priti-kapoor-a10b80251/",
+        github: "https://github.com/Priti2078",
+        photo: priti
     },
     {
-        name: "Siddharth Srivastava",
-        tech: "ML Developer",
+        name: "Shrasti Yadav",
+        tech: "UI/UX Designer",
         linked: "",
         github: "",
-        photo: siddharth
+        photo: taru
     },
     {
-        name: "Mrityunjay Pandey",
-        tech: "Web Developer",
+        name: "Sonam Kumari",
+        tech: "Node.js Developer",
+        linked: "https://www.linkedin.com/in/sonamkumari27",
+        github: "https://github.com/sonamakgec",
+        photo: sonam
+    },
+    {
+        name: "Shashank Singh",
+        tech: "Flutter Developer",
         linked: "",
         github: "",
-        photo: mrityunjay
+        photo: shashank
     },
     {
-        name: "Tanishq",
+        name: "Rishabh Gupta",
         tech: "React Developer",
         linked: "",
         github: "",
-        photo: tanishq
+        photo: rishabh
     },
     {
-        name: "Anjani Singhal",
-        tech: "App Developer and UI/UX Designer",
+        name: "Saurabh",
+        tech: "React Developer",
         linked: "",
         github: "",
-        photo: anjani
+        photo: saurabh
     },
     {
-        name: "Nidhi Solanki",
+        name: "Raghav Agarwal",
+        tech: "Android Developer",
+        linked: "",
+        github: "",
+        photo: raghav
+    },
+    {
+        name: "Arpit Malik",
         tech: "ML Developer",
-        linked: "",
-        github: "",
-        photo: nidhi
+        linked: "https://www.linkedin.com/in/arpit-malik-aa836a243",
+        github: "https://github.com/Arpit2221",
+        photo: arpit
     },
     {
-        name: "Nishtha Pandey",
-        tech: "ML Developer",
-        linked: "",
-        github: "",
-        photo: nishtha
+        name: "Kartik Tyagi",
+        tech: "Node.js Developer",
+        linked: "https://www.linkedin.com/in/kartik-tyagi-a96929205/",
+        github: "https://github.com/KartikAKGEC89",
+        photo: kartik
     },
     {
-        name: "Sachin Kumar",
-        tech: "Web Developer",
-        linked: "",
-        github: "",
-        photo: sachin
+        name: "Sarthak Srivastava",
+        tech: "React Developer",
+        linked: "http://www.linkedin.com/in/sarthak-srivastava-0114a8230",
+        github: "https://github.com/Sarthaksri4",
+        photo: sarthak
     },
     {
-        name: "Harshit Singh",
-        tech: "Web Developer",
+        name: "Atul Kumar",
+        tech: "Node.js developer",
         linked: "",
         github: "",
-        photo: harshit
+        photo: atul
+    },
+    {
+        name: "Priya Sharma",
+        tech: "UI/UX Designer",
+        linked: "",
+        github: "",
+        photo: priya
     }
 
 ];

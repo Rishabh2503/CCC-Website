@@ -7,6 +7,7 @@ import cccLogo from "../Images/CCC_logo.svg";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+  
   const [pop, setPop] = useState(false);
 
   const closeModal = () => setShow(false);
@@ -31,7 +32,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink className="menu">
           <span onClick={() => setPop(true)}>Contact Us</span>
-          {pop && <NewModal closePop={closePop} />}
+          {pop && <Live closeModal={closePop} />}
         </NavLink>
         <NavLink className="menu">
           <span onClick={() => setShow(true)}>Register</span>
