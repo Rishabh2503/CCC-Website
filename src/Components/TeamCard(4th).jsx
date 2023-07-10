@@ -1,14 +1,13 @@
 import React from "react";
 import github from "../Images/github.svg";
 import linkedin from "../Images/linkedin.svg";
-import { thirdYear } from "../List of Team Members/thirdyear";
-
+import { fourthYear } from "../List of Team Members/fourthyear";
 const TeamCard = () => {
   return (
     <>
       <div id="cards-design">
-        {thirdYear &&
-          thirdYear.map((value, index) => {
+        {fourthYear &&
+          fourthYear.map((value, index) => {
             return (
               <div className="card">
                 <img src={value.photo} alt="card img" className="card-img" />

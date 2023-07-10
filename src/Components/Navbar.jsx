@@ -32,7 +32,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink className="menu">
           <span onClick={() => setPop(true)}>Contact Us</span>
-          {pop && <Live closeModal={closePop} />}
+          {pop && <NewModal closeModal={closePop} />}
         </NavLink>
         <NavLink className="menu">
           <span onClick={() => setShow(true)}>Register</span>
