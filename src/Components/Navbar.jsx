@@ -4,15 +4,20 @@ import NewModal from "./Contact";
 import "./Components.css";
 import { NavLink } from "react-router-dom";
 import cccLogo from "../Images/CCC_logo.svg";
+import { Modal, ButtonToolbar, Button, Placeholder } from "rsuite";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
-
   const [pop, setPop] = useState(false);
 
-  const closeModal = () => setShow(false);
-
   const closePop = () => setPop(false);
+
+  const [open, setOpen] = React.useState(false);
+  const [size, setSize] = React.useState();
+  const handleOpen = (value) => {
+    setSize(value);
+    setOpen(true);
+  };
+  const handleClose = () => setOpen(false);
 
   return (
     <header>
@@ -36,7 +41,7 @@ const Navbar = () => {
             Team
           </NavLink>
         </span>
-        <span className="nav-item"> 
+        <span className="nav-item">
           <NavLink className="menu">
             <span onClick={() => setPop(true)}>Contact Us</span>
             {pop && <NewModal closeModal={closePop} />}
@@ -44,8 +49,23 @@ const Navbar = () => {
         </span>
         <span className="nav-item">
           <NavLink className="menu">
-            <span onClick={() => setShow(true)}>Register</span>
-            {show && <MyModal closeModal={closeModal} />}
+            <span onClick={() => handleOpen("sm")}>Register</span>
+            <Modal size={size} open={open} onClose={handleClose}>
+              <Modal.Header>
+                <Modal.Title id="header-text">STAY TUNED</Modal.Title>
+              </Modal.Header>
+              <Modal.Body id="body-text">
+                For upcoming events that will be happening soon!
+              </Modal.Body>
+              <Modal.Footer>
+                <Button onClick={handleClose} appearance="subtle">
+                  Cancel
+                </Button>
+                <Button onClick={handleClose} appearance="primary">
+                  Ok
+                </Button>
+              </Modal.Footer>
+            </Modal>
           </NavLink>
         </span>
       </div>

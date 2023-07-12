@@ -188,10 +188,22 @@ h2 {
 .model-btn {
   color: white;
   background-color: #007dfe;
+  border-style: none;
   height: 5.6vh;
   width: 9vw;
-  margin-left: 7vw;
+  margin-left: 10.5vw;
   border-radius: 0.5vw;
+}
+
+#header-text{
+  text-align: center;
+  font-size: 2vw;
+  color:#007dfe;
+}
+
+#body-text{
+  text-align: center;
+  font-size: 1.4vw;
 }
 
 /*<-----------------Contact Us----------------->*/
