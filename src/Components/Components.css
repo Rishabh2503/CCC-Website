@@ -286,3 +286,7 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.accounts img{
+  height: 2vw;
+}
