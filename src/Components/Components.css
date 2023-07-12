@@ -206,6 +206,10 @@ h2 {
   font-size: 1.4vw;
 }
 
+.rs-body{
+  align-items: center;
+}
+
 /*<-----------------Contact Us----------------->*/
 
 #title-cont {
