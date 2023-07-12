@@ -45,7 +45,7 @@ header .display-menu {
   flex-wrap: wrap;
   text-align: center;
   margin-left: 4.6vw;
-  margin-right: 4.6vw; 
+  margin-right: 4.6vw;
 }
 .card {
   width: 15vw;
@@ -94,7 +94,7 @@ header .display-menu {
 
 .card-sub-title {
   text-transform: capitalize;
-  font-size: .7vw;
+  font-size: 0.7vw;
   text-align: center;
   font-weight: 300;
 }
@@ -132,7 +132,6 @@ header .display-menu {
 
 .container {
   margin: 5rem;
-  
 }
 
 .modal-wrapper {
@@ -142,7 +141,6 @@ header .display-menu {
   bottom: 0;
   top: 0;
   background-color: rgba(189, 189, 189, 0.9);
-
 }
 
 .modal-container {
@@ -190,8 +188,8 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
   border-radius: 0.5rem;
   background-color: white;
   display: flex;
@@ -202,51 +200,89 @@ h2 {
   width: 30vw;
 }
 
-#btn-cont{
-    width:30vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  #btn-cont span {
-    font-weight: 500;
-    font-size: 1.2vw;
-    margin: 2vw 3vw;
-    width: 104px;
-    height: 44px;
-    border-radius: 0.2vw;
-    text-align: center;
-    padding: 0.5vw 1vw;
-    cursor: pointer;
-  
-  }
+#btn-cont {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-  #btn-1{
-    color: white;
-    background-color: #007dfe;
-  }
+#btn-cont span {
+  font-weight: 500;
+  font-size: 1.2vw;
+  margin: 2vw 3vw;
+  width: 104px;
+  height: 44px;
+  border-radius: 0.2vw;
+  text-align: center;
+  padding: 0.5vw 1vw;
+  cursor: pointer;
+}
 
-  #btn-2{
-    border: 1px solid #007dfe ;
+#btn-1 {
+  color: white;
+  background-color: #007dfe;
+}
 
-  }
+#btn-2 {
+  border: 1px solid #007dfe;
+}
 
-  .inp_ut, .inp_ut input  {
-    width: 25vw;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-  }
+.inp_ut,
+.inp_ut input {
+  width: 25vw;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
 
-  .valid{
-    margin-bottom: 2vh;
-    color:red;
-    font-family: 'Manrope';
-    visibility: hidden;
+.valid {
+  margin-bottom: 2vh;
+  color: red;
+  font-family: "Manrope";
+  visibility: hidden;
+}
+
+/*<-----------------Footer----------------->*/
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #007dfe;
+  height: 20vw;
+}
+
+#foor_content{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 
+#foot_logo{
+  align-items: center;
+  margin-left: 15vw;
+}
 
+#foot_content div{
+  color: white;
+}
 
+#foot_head{
+  font-size: 2vw;
+  text-align: center;
+}
 
+#foot_tail{
+  text-align: center;
+  font-size: 1.3vw;
+  width: 35vw;
+}
+#foot-id{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
