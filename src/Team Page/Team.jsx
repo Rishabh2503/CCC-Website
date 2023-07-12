@@ -2,15 +2,13 @@ import React from "react";
 import "./Team.css";
 import TeamCard2 from "../Components/TeamCard(2nd)";
 import team from "../Images/teampage.svg";
-import TeamCard3 from '../Components/TeamCard(3rd)'
-import TeamCard4 from '../Components/TeamCard(4th)'
-
+import TeamCard3 from "../Components/TeamCard(3rd)";
+import TeamCard4 from "../Components/TeamCard(4th)";
 
 const Team = () => {
   return (
     <div>
-      <div id="first-part">;
-        <img src={team} alt="team" id="illustration" />
+      <div id="first-part">
         <div id="head">
           <div id="head_ing">
             <span>
@@ -20,6 +18,9 @@ const Team = () => {
           <div className="inline" id="fam">
             It's a FAMILY!
           </div>
+        </div>
+        <div>
+          <img src={team} alt="team" id="illustration" />
         </div>
       </div>
       <div className="title">
@@ -34,12 +35,12 @@ const Team = () => {
         <div className="year-title">Members from Third Year : </div>
         <TeamCard3 />
       </div>
-      
+
       <div className="teams">
         <div className="year-title">Members from Second Year : </div>
-        <TeamCard3/>
+        <TeamCard3 />
       </div>
-{/*      
+      {/*      
       <div>
         <div className="year-title">Our Alumni : </div>
         <div></div>
