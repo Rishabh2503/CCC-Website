@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import MyModal from "../Components/Register";
 import NewModal from "./Contact";
 import "./Components.css";
 import { NavLink } from "react-router-dom";
