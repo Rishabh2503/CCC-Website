@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Images/CCC_logo.svg";
+import logo from "../Images/ccc-white-logo.svg";
 import instagram from "../Images/insta.svg";
 import linkedin from "../Images/linkedin.svg";
 import github from "../Images/github.svg";
