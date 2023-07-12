@@ -4,11 +4,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  /* height: 75px; */
 }
 
+/* .nav-item{
+  color:#007dfe;
+  font-size: .9vw;
+}
+
+.nav-item:hover{
+  height: 8vw;
+  width: fit-content;
+  color:#fff;
+  background-color: #007dfe;
+
+} */
+
 .logo {
-  font-size: 30px;
+  font-size: 2vw;
   margin-left: 3vh;
   margin-top: 2vh;
   display: flex;
@@ -22,13 +35,19 @@ header .display-menu {
 }
 
 .menu {
-  padding: 0 15px;
+  padding: 0 20px;
   text-decoration: none;
   font-size: 3vh;
-  color: black;
+  color: #007dfe;
   margin-right: 1vw;
 }
 
+.menu:hover {
+  border-radius: 0.3vw;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background-color: #007dfe;
+}
 #name {
   color: black;
   font-size: larger;
@@ -254,39 +273,38 @@ h2 {
   height: 20vw;
 }
 
-#foor_content{
+#foor_content {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-
-#foot_logo{
+#foot_logo {
   align-items: center;
   margin-left: 15vw;
 }
 
-#foot_content div{
+#foot_content div {
   color: white;
 }
 
-#foot_head{
+#foot_head {
   font-size: 2vw;
   text-align: center;
 }
 
-#foot_tail{
+#foot_tail {
   text-align: center;
   font-size: 1.3vw;
   width: 35vw;
 }
-#foot-id{
+#foot-id {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.accounts img{
+.accounts img {
   height: 2vw;
 }

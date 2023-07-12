@@ -7,7 +7,7 @@ import cccLogo from "../Images/CCC_logo.svg";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  
+
   const [pop, setPop] = useState(false);
 
   const closeModal = () => setShow(false);
@@ -21,23 +21,33 @@ const Navbar = () => {
         <span id="name">Cloud Computing Cell</span>
       </div>
       <div>
-        <NavLink className="menu" to={"/"}>
-          Home
-        </NavLink>
-        <NavLink className="menu" to={"/Activity"}>
-          Activities
-        </NavLink>
-        <NavLink className="menu" to={"/Team"}>
-          Team
-        </NavLink>
-        <NavLink className="menu">
-          <span onClick={() => setPop(true)}>Contact Us</span>
-          {pop && <NewModal closeModal={closePop} />}
-        </NavLink>
-        <NavLink className="menu">
-          <span onClick={() => setShow(true)}>Register</span>
-          {show && <MyModal closeModal={closeModal} />}
-        </NavLink>
+        <span className="nav-item">
+          <NavLink className="menu" to={"/"}>
+            Home
+          </NavLink>
+        </span>
+        <span className="nav-item">
+          <NavLink className="menu" to={"/Activity"}>
+            Activities
+          </NavLink>
+        </span>
+        <span className="nav-item">
+          <NavLink className="menu" to={"/Team"}>
+            Team
+          </NavLink>
+        </span>
+        <span className="nav-item"> 
+          <NavLink className="menu">
+            <span onClick={() => setPop(true)}>Contact Us</span>
+            {pop && <NewModal closeModal={closePop} />}
+          </NavLink>
+        </span>
+        <span className="nav-item">
+          <NavLink className="menu">
+            <span onClick={() => setShow(true)}>Register</span>
+            {show && <MyModal closeModal={closeModal} />}
+          </NavLink>
+        </span>
       </div>
     </header>
   );
