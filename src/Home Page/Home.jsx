@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <div id="first-part">
-        <img src={home} alt="home" id="illustration" />
+        
         <div id="head">
           <div id="heading">
             <span>Accelerating</span>
@@ -32,6 +32,7 @@ const Home = () => {
             <span>| DEPLOY</span>
           </div>
         </div>
+        <div><img src={home} alt="home" id="illustration" /></div>
       </div>
       <div id="about-us">
         <div className="title">

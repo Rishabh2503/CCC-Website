@@ -26,24 +26,24 @@ const Team = () => {
         <span>OUR </span>
         <span className="inline">TEAM</span>
       </div>
-      <div>
+      <div className="teams">
         <div className="year-title">Members from Fourth Year : </div>
         <TeamCard4 />
       </div>
-      <div>
+      <div className="teams">
         <div className="year-title">Members from Third Year : </div>
         <TeamCard3 />
       </div>
       
-      <div>
+      <div className="teams">
         <div className="year-title">Members from Second Year : </div>
-        <TeamCard2 />
+        <TeamCard3/>
       </div>
-     
+{/*      
       <div>
         <div className="year-title">Our Alumni : </div>
         <div></div>
-      </div>
+      </div> */}
     </div>
   );
 };
