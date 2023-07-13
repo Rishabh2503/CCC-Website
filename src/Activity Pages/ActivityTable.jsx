@@ -7,7 +7,7 @@ const ActivityTable = () => {
       <table class="table table-striped">
         <thead>
           <tr>
-            <th scope="col">Serial Number</th>
+            <th scope="col">S. No.</th>
             <th scope="col">Events</th>
             <th scope="col">Dates</th>
           </tr>
