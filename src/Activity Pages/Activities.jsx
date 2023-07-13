@@ -1,6 +1,7 @@
 import React from "react";
 import activity from "../Images/activities.svg";
 import "./actvities.css";
+import ActivityTable from "./ActivityTable";
 
 const Activities = () => {
   return (
@@ -23,6 +24,11 @@ const Activities = () => {
           <img src={activity} alt="team" id="illustration" />
         </div>
       </div>
+      <div className="title">
+        <span>HISTORICAL</span>
+        <span className="inline"> EVENTS</span>
+      </div>
+      <ActivityTable />
     </div>
   );
 };
