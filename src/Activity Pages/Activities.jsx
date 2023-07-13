@@ -3,7 +3,6 @@ import activity from "../Images/activities.svg";
 import "./actvities.css";
 import ActivityTable from "./ActivityTable";
 import ProjectTabel from "./ProjectTable";
-import HackCarousal from "../Components/HackCarousal";
 import Carousal1 from "./Carousal1";
 
 const Activities = () => {
@@ -32,12 +31,12 @@ const Activities = () => {
         <span className="inline"> EVENTS</span>
       </div>
       <ActivityTable />
-      <Carousal1 />
       <div className="title">
         <span>OUR</span>
         <span className="inline"> PROJECTS</span>
       </div>
       <ProjectTabel />
+      <Carousal1 />
     </>
   );
 };

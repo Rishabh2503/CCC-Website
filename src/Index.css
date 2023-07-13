@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Inter', sans-serif;
-  background-color: #F7EFE5;
+  background-color: white;
 }
 
 @import "rsuite/dist/rsuite.css";
