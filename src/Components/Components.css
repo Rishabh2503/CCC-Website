@@ -21,7 +21,6 @@ header {
 
 } */
 
-
 .logo {
   font-size: 2vw;
   margin-left: 3vh;
@@ -282,14 +281,54 @@ h2 {
 
 /*<-----------------Footer----------------->*/
 
+.dEuDkO {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-size: 1.6em;
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #333;
+  box-shadow: 0 0 2px 0px #333;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  width: 0vw;
+  height: 0vw;
+  min-width: 50px;
+  line-height: 50px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.icCrcs {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-size: 1.6em;
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #999;
+  box-shadow: 0 0 2px 0px #333;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 0;
+  min-width: 50px;
+  line-height: 50px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+}
+
 #footer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3vw;
   margin-top: 2vw;
   align-items: center;
   justify-content: space-around;
   background-color: #007dfe;
-  height: 20vw;
+  height: fit-content;
 }
 
 #foor_content {
@@ -302,6 +341,7 @@ h2 {
 #foot_logo {
   align-items: center;
   margin-left: 15vw;
+  height: 4vw;
 }
 
 #foot_content div {

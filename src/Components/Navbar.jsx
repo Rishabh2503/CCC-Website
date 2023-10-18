@@ -60,7 +60,7 @@ const Navbar = () => {
         <img src={cccLogo} alt="logo" style={{height:"4vw"}}/>
         <span id="name" style={{fontSize:"2vw"}}>Cloud Computing Cell</span>
       </div>
-      <div >
+      <div style={{gap:"1vw"}}>
         <span className="nav-item">
           <NavLink className="menu" to={"/"} style={{fontSize:"1.2vw"}}>
             Home
