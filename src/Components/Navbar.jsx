@@ -57,27 +57,27 @@ const Navbar = () => {
   return (
     <header>
       <div className="logo">
-        <img src={cccLogo} alt="logo" />
-        <span id="name">Cloud Computing Cell</span>
+        <img src={cccLogo} alt="logo" style={{height:"4vw"}}/>
+        <span id="name" style={{fontSize:"2vw"}}>Cloud Computing Cell</span>
       </div>
-      <div>
+      <div >
         <span className="nav-item">
-          <NavLink className="menu" to={"/"}>
+          <NavLink className="menu" to={"/"} style={{fontSize:"1.2vw"}}>
             Home
           </NavLink>
         </span>
         <span className="nav-item">
-          <NavLink className="menu" to={"/Activity"}>
+          <NavLink className="menu" to={"/Activity"} style={{fontSize:"1.2vw"}}>
             Activities
           </NavLink>
         </span>
         <span className="nav-item">
-          <NavLink className="menu" to={"/Team"}>
+          <NavLink className="menu" to={"/Team"} style={{fontSize:"1.2vw"}}>
             Team
           </NavLink>
         </span>
         <span className="nav-item">
-          <NavLink className="menu">
+          <NavLink className="menu" style={{fontSize:"1.2vw"}}>
             <span onClick={() => handleShow("sm")}>Contact Us</span>
             <Modal size={size} open={pop} onClose={handleExit}>
               <Modal.Header>
@@ -90,13 +90,6 @@ const Navbar = () => {
               </Modal.Header>
               <Modal.Body>
                 <div>
-                  {/* <input
-                      placeholder="Enter your name"
-                      id="nname"
-                      // onClick={handleName}
-                      // onChange={handleName}
-                      required
-                    /> */}
                   <label>Name</label>
                   <Input
                     placeholder="Enter your name"
@@ -109,15 +102,7 @@ const Navbar = () => {
                 <p className="valid" id="invalidName">
                   Only alphabets are allowed.
                 </p>
-
                 <div>
-                  {/* <input
-                      placeholder="Enter your email"
-                      id="uname"
-                      // onClick={handleEmail}
-                      // onChange={handleEmail}
-                      required
-                    /> */}
                   <label>Email</label>
                   <Input
                     placeholder="Enter your email"
@@ -152,7 +137,7 @@ const Navbar = () => {
           </NavLink>
         </span>
         <span className="nav-item">
-          <NavLink className="menu">
+          <NavLink className="menu" style={{fontSize:"1.2vw"}}>
             <span onClick={() => handleOpen("sm")}>Register</span>
             <Modal size={size} open={open} onClose={handleClose}>
               <Modal.Header>

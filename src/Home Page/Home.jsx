@@ -18,18 +18,18 @@ const Home = () => {
       <div id="first-part">
         
         <div id="head">
-          <div id="heading">
+          <div id="heading" style={{fontSize:"3vw"}}>
             <span>Accelerating</span>
             <span className="inline"> Cloud</span>
             <span> Transformations.</span>
           </div>
-          <div id="moto">
-            <span>THINK |</span>
+          <div id="moto" style={{fontSize:"3vw"}}>
+            <span >THINK |</span>
             <span className="inline">DEVELOP</span>
             <span>| DEPLOY</span>
           </div>
         </div>
-        <div><img src={home} alt="home" id="illustration" /></div>
+        <div><img src={home} alt="home" id="illustration" style={{height:"30vw"}}/></div>
       </div>
       <div id="about-us">
         <div className="title">
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <div id="about">
           <div id="teampic">
-            <img src={team} alt="team photo" />
+            <img src={team} alt="team photo" style={{height:"30vw"}}/>
           </div>
           <div className="content">
             <span className="inline">Cloud Computing Cell </span>

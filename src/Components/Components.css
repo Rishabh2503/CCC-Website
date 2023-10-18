@@ -10,7 +10,8 @@ header {
 /* .nav-item{
   color:#007dfe;
   font-size: .9vw;
-}
+}.
+
 
 .nav-item:hover{
   height: 8vw;
@@ -19,6 +20,7 @@ header {
   background-color: #007dfe;
 
 } */
+
 
 .logo {
   font-size: 2vw;
@@ -195,18 +197,18 @@ h2 {
   border-radius: 0.5vw;
 }
 
-#header-text{
+#header-text {
   text-align: center;
   font-size: 2vw;
-  color:#007dfe;
+  color: #007dfe;
 }
 
-#body-text{
+#body-text {
   text-align: center;
   font-size: 1.4vw;
 }
 
-.rs-body{
+.rs-body {
   align-items: center;
 }
 
@@ -215,7 +217,7 @@ h2 {
 #title-cont {
   text-align: center;
   font-weight: 500;
-  font-size: 8vh;
+  font-size: 4vw;
 }
 
 .modal-contain {
@@ -326,10 +328,6 @@ h2 {
   height: 2vw;
 }
 
-.slide-img{
+.slide-img {
   width: 100%;
-   
 }
-
-
-

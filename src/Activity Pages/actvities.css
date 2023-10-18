@@ -27,3 +27,10 @@
     height: 40vw;
     margin: 5vw;
 }
+
+.ball{
+    height: 24vw;
+    width: 24vw;
+    background-color: red;
+    border-radius: 50%;
+}

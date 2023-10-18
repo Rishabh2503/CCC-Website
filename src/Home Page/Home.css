@@ -8,7 +8,6 @@
 #heading {
   font-weight: 500;
   font-size: 3.6vw;
-  margin-top: 15vh;
   margin-left: 3vw;
 }
 
@@ -80,6 +79,7 @@
 
 .domain_content {
   display: flex;
+  font-size: 1.3vw;
   flex-direction: row;
   justify-content: space-between;
  

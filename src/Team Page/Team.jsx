@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.css";
-import TeamCard2 from "../Components/TeamCard(2nd)";
+// import TeamCard2 from "../Components/TeamCard(2nd)";
 import team from "../Images/teampage.svg";
 import TeamCard3 from "../Components/TeamCard(3rd)";
 import TeamCard4 from "../Components/TeamCard(4th)";
@@ -36,10 +36,10 @@ const Team = () => {
         <TeamCard3 />
       </div>
 
-      <div className="teams">
+      {/* <div className="teams">
         <div className="year-title">Members from Second Year : </div>
         <TeamCard3 />
-      </div>
+      </div> */}
       {/*      
       <div>
         <div className="year-title">Our Alumni : </div>
