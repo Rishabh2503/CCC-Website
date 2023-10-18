@@ -319,6 +319,7 @@ h2 {
   outline: none;
 }
 
+
 #footer {
   display: flex;
   flex-direction: row;
@@ -370,4 +371,64 @@ h2 {
 
 .slide-img {
   width: 100%;
+}
+
+
+.mobNav{
+  display: none;
+}
+
+@media screen and (max-width:500px) {
+  .navbar {
+    display: none;
+  }
+
+  .mobNav {
+    display: block;
+  }
+
+  .mobNav div{
+    height: 4vh;
+    display: flex;
+    justify-content: end;
+    padding: 0 2vw;
+  }
+
+  .mobNav div img {
+    padding: 0.5vh;
+  }
+
+  .navList{ 
+    position: fixed;
+    top: 4vh;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    list-style: none;
+    font-size: 1.5vw;
+    color: #007dfe;
+    font-weight: 700;
+    padding: 2vw;
+  }
+  /* .footer {
+    display: none;
+  }
+
+  .mobFooter {
+    display: block;
+    padding: 4vw;
+  }
+
+  .smlFoot {
+    list-style: none;
+    font-size: 3vw;
+    padding: 0;
+  }
+
+  .logos {
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    padding-top: 2vw;
+  } */
 }
