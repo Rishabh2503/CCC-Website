@@ -400,8 +400,10 @@ h2 {
 
   .navList{ 
     position: fixed;
+    border: .2vw solid #007dfe;
+    border-radius: .4vw;
     top: 4vh;
-    right: 0;
+    right: 4.9vw;
     z-index: 10;
     background-color: white;
     list-style: none;

@@ -14,7 +14,7 @@
 #headings{
     font-weight: 500;
     font-size: 3.6vw;
-    margin-top: 15vh;
+   
 }
 
 .table{
@@ -33,4 +33,16 @@
     width: 24vw;
     background-color: red;
     border-radius: 50%;
+}
+
+thead th{
+    font-size: 1.6vw;
+}
+
+tbody th{
+    font-size: 1.6vw;
+}
+
+tbody td{
+    font-size: 1.2vw;
 }
