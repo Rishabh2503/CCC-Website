@@ -72,7 +72,7 @@ header .display-menu {
   height: 17vw;
   border-radius: 1.6vw;
   overflow: hidden;
-  border: 8px solid #fff;
+  border: .4vw solid #fff;
   position: relative;
   margin-top: 6vh;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -98,7 +98,8 @@ header .display-menu {
   padding: 2vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   transition: 2s;
 }
 
@@ -106,8 +107,8 @@ header .display-menu {
   right: 0;
 }
 .card-title {
-  text-transform: uppercase;
   font-size: 1.6vw;
+  line-height: 2vw;
   text-align: center;
   font-weight: 500;
 }
@@ -126,8 +127,10 @@ header .display-menu {
   flex-direction: row;
   justify-content: space-around;
   font-weight: 400;
+  width: 9vw;
   cursor: pointer;
 }
+
 
 /* .card-btn {
   color: #1f3d47;
