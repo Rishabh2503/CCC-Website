@@ -11,6 +11,7 @@ import sarthak from '../Team Member Photos/sarthak.jpg'
 import shashank from '../Team Member Photos/sashank.JPG'
 import saurabh from '../Team Member Photos/Saurbh.jpg'
 import sonam from '../Team Member Photos/sonam.jpg'
+import srishti from '../Team Member Photos/SRISHTI.png'
 
 
 export const thirdYear = [
@@ -40,7 +41,7 @@ export const thirdYear = [
         tech: "UI/UX Designer",
         linked: "",
         github: "",
-        photo: taru
+        photo: srishti
     },
     {
         name: "Sonam Kumari",
