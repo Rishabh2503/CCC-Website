@@ -67,7 +67,6 @@
   margin-left: 5vw;
 }
 
-
 .domain_name {
   display: flex;
   flex-direction: row;
@@ -82,7 +81,7 @@
   font-size: 1.3vw;
   flex-direction: row;
   justify-content: space-between;
- 
+
   /* padding-left: 3vw;
     padding-right: 3vw; */
   width: 20.1vw;
@@ -93,18 +92,105 @@
 
 #what-we-do {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.domain_pic:hover{
+.domain_pic:hover {
   transform: translateY(-0.5%);
   filter: drop-shadow(0px 18px 25px rgba(0, 0, 0, 0.25));
-  
 }
 
-#imgCar img{
+#imgCar img {
   height: 40vw;
-  
+}
+
+#whatWeDo {
+  /* width: 20vw; */
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.domainPic {
+  height: 10vw;
+  margin-bottom: 1vw;
+}
+
+.domainName {
+  font-size: 1.7vw;
+}
+
+.domainContent {
+  font-size: 1.2vw;
+  width: 18vw;
+}
+
+/* .dEuDkO {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-size: 1.6em;
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #333;
+  box-shadow: 0 0 2px 0px #333;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 0;
+  min-width: 50px;
+  line-height: 50px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+} */
+
+/* .icCrcs {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-size: 1.6em;
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #999;
+  box-shadow: 0 0 2px 0px #333;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 0;
+  min-width: 50px;
+  line-height: 50px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+} */
+
+.dEuDkO {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-size: 1.6em;
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #333;
+  box-shadow: 0 0 2px 0px #333;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 0;
+  min-width: 50px;
+  line-height: 50px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
 }
