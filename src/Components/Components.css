@@ -93,7 +93,7 @@ header .display-menu {
   position: absolute;
   background: #1f3d4738;
   backdrop-filter: blur(5px);
-  border-radius: 15px;
+  border-radius: 1.6vw;
   color: #fff;
   padding: 2vw;
   display: flex;
@@ -107,15 +107,15 @@ header .display-menu {
   right: 0;
 }
 .card-title {
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   line-height: 2vw;
   text-align: center;
   font-weight: 500;
 }
 
-.card-sub-title {
+.Card-sub-title {
   text-transform: capitalize;
-  font-size: 0.7vw;
+  font-size: 1vw;
   text-align: center;
   font-weight: 300;
 }
@@ -129,6 +129,10 @@ header .display-menu {
   font-weight: 400;
   width: 9vw;
   cursor: pointer;
+}
+
+.card-info img{
+  height: 1.5vw;
 }
 
 
