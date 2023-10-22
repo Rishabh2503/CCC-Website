@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Input } from "rsuite";
+import axios from "axios";
 import "./Components.css";
 import { NavLink } from "react-router-dom";
 import cccLogo from "../Images/CCC_logo.svg";
@@ -9,10 +10,12 @@ import hamburger from "../Images/hamburgur.svg";
 const Navbar = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [navOpen, setNavOpen] = useState(false);
   const [pop, setPop] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   const [size, setSize] = React.useState();
+
   const handleOpen = (value) => {
     setSize(value);
     setOpen(true);
@@ -23,6 +26,30 @@ const Navbar = () => {
   };
   const handleExit = () => setPop(false);
   const handleClose = () => setOpen(false);
+
+  var data = { name: name, email: email, message: message };
+
+  const sendContactData = async () => {
+    try {
+      const response = await axios.post(
+        "https://contact-dpnu.onrender.com/cloud/contact",
+        data
+      );
+
+      if (response.status === 200) {
+        alert("Form submitted successfully");
+      } else {
+        alert("Form submission failed");
+      }
+    } catch (error) {
+      console.error("An error occurred:", error);
+    }
+  };
+
+  function contactData() {
+    sendContactData();
+    handleExit();
+  }
 
   function handleName(e) {
     if (/^[a-zA-Z ]*$/.test(e) || e === "") {
@@ -133,6 +160,9 @@ const Navbar = () => {
                     <Input
                       as="textarea"
                       rows={3}
+                      onChange={(e) => {
+                        setMessage(e);
+                      }}
                       placeholder="Enter your Message"
                     />
                   </div>
@@ -141,7 +171,7 @@ const Navbar = () => {
                   <Button onClick={handleExit} appearance="subtle">
                     Cancel
                   </Button>
-                  <Button onClick={handleExit} appearance="primary">
+                  <Button onClick={contactData} appearance="primary">
                     Send
                   </Button>
                 </Modal.Footer>
@@ -235,6 +265,9 @@ const Navbar = () => {
                       <Input
                         as="textarea"
                         rows={3}
+                        onChange={(e) => {
+                          setMessage(e);
+                        }}
                         placeholder="Enter your Message"
                       />
                     </div>
@@ -243,7 +276,7 @@ const Navbar = () => {
                     <Button onClick={handleExit} appearance="subtle">
                       Cancel
                     </Button>
-                    <Button onClick={handleExit} appearance="primary">
+                    <Button onClick={contactData} appearance="primary">
                       Send
                     </Button>
                   </Modal.Footer>
