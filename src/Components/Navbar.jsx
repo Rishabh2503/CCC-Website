@@ -35,7 +35,6 @@ const Navbar = () => {
         "https://contact-dpnu.onrender.com/cloud/contact",
         data
       );
-
       if (response.status === 200) {
         alert("Form submitted successfully");
       } else {
