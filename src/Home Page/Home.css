@@ -96,7 +96,7 @@
   flex-wrap: wrap;
 }
 
-.domain_pic:hover {
+.domainPic:hover {
   transform: translateY(-0.5%);
   filter: drop-shadow(0px 18px 25px rgba(0, 0, 0, 0.25));
 }
