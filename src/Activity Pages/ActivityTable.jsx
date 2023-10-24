@@ -1,10 +1,11 @@
 import React from "react";
 import "./actvities.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 const ActivityTable = () => {
   return (
     <div className="table">
-      <table class="table table-striped">
+      <table className="table table-striped table-hover">
         <thead>
           <tr>
             <th scope="col">S. No.</th>
@@ -80,6 +81,7 @@ const ActivityTable = () => {
           </tr>
         </tbody>
       </table>
+      
     </div>
   );
 };
